@@ -8,11 +8,13 @@ from sklearn.cluster import AgglomerativeClustering
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformers, Util
 
-# Initialise language models
-model = SentenceTransformers('all_MiniLM-L6-v2')
-gte_model = SentenceTransformers('thenlper/gte-large')
+
 
 class nlp_utils:
+
+    # Initialise language models
+    model = SentenceTransformers('all_MiniLM-L6-v2')
+    gte_model = SentenceTransformers('thenlper/gte-large')
 
 
     def text_clustering(self, corpus, model_name = 'gte-large', input_thres = 0.9):
