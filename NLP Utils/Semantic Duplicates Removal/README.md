@@ -1,8 +1,8 @@
 
 
 
-Large text corpora, especially those compiled through methods like web scraping, may often contain lines that are highly similar to each other but not exact duplicates.
-These may be the exact same except maybe that a punctuation mark is missing, or one word has been replaced.
+Large text corpora, especially those compiled through methods like web scraping, may often contain lines that are highly similar but not exact duplicates of each other.
+These may be exactly identical except maybe that a punctuation mark is missing, or one word has been replaced.
 
 De-duplication of such text cannot be carried out through simple python operations like set function or df.drop_duplicates() as these methods look for exact matches.
 
