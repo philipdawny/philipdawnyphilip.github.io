@@ -6,5 +6,7 @@ Some of the key insights include:
 
 
 Popularity of film genres across decades.
+
 Seasonal preferences for releasing movies of particular genres.
+
 Visualizing the 'Golden Age' of adult films in USA.
