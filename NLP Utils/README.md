@@ -11,7 +11,7 @@ The class 'nlp_utils' can be imported into any python program and the functions 
 This function carries out text clustering based on sentence embeddings.
 The default model selected is 'gte-large' from [https://huggingface.co/thenlper/gte-large](url)
 
-Default threshold set for clustering is 01. which means that corpus elements at a cosine distance greater than 0.1 will be placed in separate clusters.
+Default threshold set for clustering is 0.1 which means that corpus elements at a cosine distance greater than 0.1 will be placed in separate clusters.
 
 Keep in mind that this threshold is applicable only for the model 'gte-large'. In case user selects another model for clustering, the threshold will have to be adjusted accordingly.
 
