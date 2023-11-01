@@ -3,7 +3,7 @@
 ## These are some of the NLP utility functions that I regurarly use for NLP tasks
 
 
-The class 'nlp_utils' can be imported into any python program and the functions contained in it can be called with the respective parameters.
+The class `nlp_utils` can be imported into any Python program and the functions contained in it can be called with the respective parameters.
 
 
 `text_clustering()`
