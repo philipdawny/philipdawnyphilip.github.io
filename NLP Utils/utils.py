@@ -17,11 +17,7 @@ class nlp_utils:
     gte_model = SentenceTransformers('thenlper/gte-large')
 
 
-    def text_clustering(self, corpus, model_name = 'gte-large', input_thres = 0.9):
-
-        # Distance threshold for clustering is 1 - percentage similarity
-
-        distance_threshold = 1 - input_thres
+    def text_clustering(self, corpus, model_name = 'gte-large', input_thres = 0.1):
 
         # Load the sentence model based on user input. If no user input is received, set the default model as gte-large
 
@@ -45,7 +41,7 @@ class nlp_utils:
 
 
         # Initialize agglomerative clutering model with distance threshold and cosine distance criteria
-        clustering_model = AgglomerativeClustering(n_clusters=None, distance_threshold = distance_threshold, affinity = 'cosine',
+        clustering_model = AgglomerativeClustering(n_clusters=None, distance_threshold = input_thres, affinity = 'cosine',
                                                    linkage = 'average')
 
 
