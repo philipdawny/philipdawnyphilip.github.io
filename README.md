@@ -12,4 +12,4 @@ I am also exploring concepts in deep learning and its varied applications.
 
 
 
-In this repo, I showcase some of the data analytics and DS personal projects that I have worked on!
+In this repo, I showcase some of the data analytics and data science personal projects that I have worked on!
